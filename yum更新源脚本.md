@@ -2,6 +2,7 @@
 #!/bin/bash
 # yum update shell
 # author:Chen
+# 因为是新手写的，请原谅
 # 只适用于有/etc/yum.repos.d这个文件夹的系统
 
 echo "The time and date are:"
