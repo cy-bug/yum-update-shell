@@ -21,7 +21,7 @@ if [[ "$sure" == "y" ]]
 	# 重命名旧文件
 		mv CentOS-Base.repo CentOS-Base.repo.old
 	# 获取阿里云的更新源
-		wget  -O /etc/yum.repos.d/Centos-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+		wget  -O /etc/yum.repos.d/CentOs-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 		wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
 	# 清除并生成缓存，开始更新
 		yum clean all
